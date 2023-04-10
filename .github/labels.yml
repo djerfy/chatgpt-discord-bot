@@ -84,6 +84,6 @@
   color: "ffffff"
   description: ""
 - #triage
-  name: ":recycle triage"
+  name: ":recycle: triage"
   color: "#d6ae01"
   description:
