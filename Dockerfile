@@ -1,7 +1,3 @@
-############################
-# Docker final environment #
-############################
-
 FROM node:19-buster-slim
 
 LABEL maintainer="DJΞRFY <djerfy@gmail.com>" \
