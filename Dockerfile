@@ -1,16 +1,4 @@
 ############################
-# Docker build environment #
-############################
-
-FROM node:19-buster-slim AS build
-
-WORKDIR /build
-
-COPY . .
-
-RUN npm i
-
-############################
 # Docker final environment #
 ############################
 
@@ -22,8 +10,8 @@ LABEL maintainer="DJΞRFY <djerfy@gmail.com>" \
 
 WORKDIR /app
 
-COPY --from=build /build/node_modules .
 COPY . .
 
-ENTRYPOINT ["npm", "run", "start"]
+RUN npm i
 
+ENTRYPOINT ["npm", "run", "start"]
