@@ -6,8 +6,8 @@ LABEL maintainer="DJΞRFY <djerfy@gmail.com>" \
 
 WORKDIR /app
 
-COPY . .
+COPY ./src/ .
 
-RUN npm i
+RUN npm install
 
 ENTRYPOINT ["npm", "run", "start"]
