@@ -1,6 +1,6 @@
 # ChatGPT Discord Bot
 
-This is simple ChatGPT Discord Bot built using `discord.js` and `gpt-3.5-turbo` model of OpenAI.
+This is simple ChatGPT Discord Bot built using `gpt-3.5-turbo` model of OpenAI.
 
 ## How to run
 
@@ -15,9 +15,7 @@ You need to have 4 variables in your environment:
 
 ```
 $ cd ./src/
-$ cp .env.example .env
-$ npm install
-$ npm run start
+$ go run .
 ```
 
 > Don't forget to edit `.env` with your configuration
