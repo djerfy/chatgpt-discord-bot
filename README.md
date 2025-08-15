@@ -1,6 +1,6 @@
 # ChatGPT Discord Bot
 
-This is simple ChatGPT Discord Bot built using `gpt-3.5-turbo` model of OpenAI.
+This is simple ChatGPT Discord Bot built using `gpt5` model of OpenAI.
 
 ## How to run
 

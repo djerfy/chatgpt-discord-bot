@@ -97,7 +97,7 @@ func newMessage(s *discordgo.Session, m *discordgo.MessageCreate) {
 	resp, err := client.CreateChatCompletion(
 		context.Background(),
 		openai.ChatCompletionRequest{
-			Model:    openai.GPT3Dot5Turbo,
+			Model:    openai.GPT5,
 			Messages: conversationLog,
 		},
 	)
